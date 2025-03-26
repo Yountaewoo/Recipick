@@ -3,13 +3,14 @@ package recipick;
 import jakarta.persistence.*;
 import lombok.*;
 
-@Entity
+
 @Table(name = "RECIPE")
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
+@Entity
 public class Recipe {
 
     @Id
